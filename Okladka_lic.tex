@@ -1,0 +1,46 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{polski}
+\usepackage{wmstitle_lic}
+\usepackage{graphicx}
+\usepackage{color}
+
+\newtheorem{df}{Definicja}[section]
+\newtheorem{pr}{Przyk{\l}ad}[section]
+
+\begin{document}
+
+\title{Hipoteza \v Cernego}
+\author{Sylwia Klimkiewicz}
+\promotor{Wit Fory\'s}
+\nralbumu{276782}
+\maketitle
+
+\section{Podstawowe definicje.}
+\begin{df} 
+Grafem nazywamy \textbf{G}=(\textbf{V},\textbf{E}), gdzie \textbf{V} jest niepustym zbiorem, kt\'orego elementy zwane s\k{a} wierzcho{\l}kami a \textbf{E} jest rodzin\k{a} dwuelemntowych podzbior\'ow zbioru \textbf{V}, zwanych kraw\k{e}dziami.
+$\textbf{E}=\{vw : v,w\in\textbf{V}\}$.
+\end{df}
+\begin{df} 
+Niech \textbf{G}=(\textbf{V},\textbf{E}) b\k{e}dzie grafem. Liczb\k{e} wierzcho{\l}\'ow grafu \textbf{G} nazywamy rz\k{e}dem grafu i oznaczamy $|\textbf{V}|$, natomiast liczb\k{e} kraw\k{e}dzi nazywamy rozmiarem grafu i oznaczamy $|\textbf{E}|$
+\end{df}
+\begin{df} 
+Niech \textbf{G}=(\textbf{V},\textbf{E}) b\k{e}dzie grafem. Zbi\'or s\k{a}siad\'ow wierzcho{\l}ka $v\in\textbf{V}$ $\textbf{N}(v)$ sk{\l}ada si\k{e} z wszystkich wierzcho{\l}k\'ow grafu \textbf{G}, takich \.ze istniej\k{a} kraw\k{e}dzie nale\.z\k{a}ce do zbioru \textbf{E}, {\l}\k{a}cz\k{a}ce te wierzcho{\l}ki z v. $\textbf{N}(v)=\{w : vw\in\textbf{E}\}$.
+\end{df} 
+\begin{df} 
+Niech \textbf{G}=(\textbf{V},\textbf{E}) b\k{e}dzie grafem. Stopniem wierzcho{\l}ka $v\in\textbf{V}$ nazywamy liczb\k{e} lego s\k{a}siad\'ow i oznaczamy $deg(v)$.
+\end{df}
+\begin{df} 
+Graf \textbf{G}=(\textbf{V},\textbf{E}) jest r-regularny, je\.zeli wszystkie jego wierzcho{\l}ki maj\k{a} stopie\'n r\'owny r.
+\end{df} 
+\begin{df} 
+Kraw\k{e}dzi\k{a} skierowan\k{a} lub {\l}ukiem grafu \textbf{G}=(\textbf{V},\textbf{E}) nazywamy uporz\k{a}dkowan\k{a} par\k{e} wierzcho{\l}k\'ow $e=(v,w)$, gdzie $v\in\textbf{V}$ jest pocz\k{a}tkiem {\l}uku $e$ natomiast $w\in\textbf{V}$ jego ko\'ncem. Graf sk{\l}adaj\k{a}cy si\k{e} z kraw\k{e}dzi skierowanych nazywamy grafem skierowanym.
+\end{df}
+
+\begin{df} 
+Niech \textbf{G}=(\textbf{V},\textbf{E}) b\k{e}dzie grafem. Ci\k{a}g wierzcho{\l}k\'ow $(v_{1},\ldots,v_{n})$, taki \.ze $\forall_{i}$ $v_{i}\in\textbf{V}$ oraz  $(v_{i-1},v_{i})\in\textbf{E}$ dla $i=2,\ldots,n$ nazywamy \'scie\.zk\k{a} w grafie \textbf{G}.
+\end{df} 
+\begin{df} 
+Graf \textbf{G} jest sp\'ojny je\'sli dowolne dwa jego wierzcho{\l}ki s\k{a} po{\l}\k{a}czone \'scie\.zk\k{a}.
+\end{df}
+
+\end{document}
